@@ -1,0 +1,27 @@
+.nav-bg{
+    background-color: antiquewhite;
+}
+.container-fluid{
+    margin: 0 80px;
+}
+.brand-name{
+    font-weight: 800;
+    font-style: italic;
+}
+.justify-center{
+    justify-content: center;
+}
+.media-icons{
+    padding: 10px;
+}
+.media-container{
+    margin-left:100px;
+}
+.nav-item a{
+    font-weight: 500;
+}
+ @media screen  and (max-width:992px) {
+    .media-container{
+        margin-left: auto;
+    } 
+ }

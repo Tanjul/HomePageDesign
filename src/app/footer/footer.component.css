@@ -1,0 +1,25 @@
+.footer-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin: 10px 50px;
+}
+.footer-title{
+    text-align: center;
+}
+.email-form{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.email-input{
+    width: 300px;
+    margin-right: 10px;
+    border:2px solid white;
+}
+@media screen and (max-width:600px) {
+    .footer-item{
+        width: 80%;
+        padding: 10px;
+    }
+}
